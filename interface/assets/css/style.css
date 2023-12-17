@@ -181,8 +181,7 @@ header {
 .sobreus .corposobre {
  max-width: 1140px;
  margin: auto;
- min-height: 100px;
- background-color: #333;
+
 }
 
 .sobreus.claro {
@@ -190,7 +189,8 @@ header {
 
 }
 
-.sobreus.claro .titulosobre {
+.sobreus.claro .titulosobre,
+.sobreus.claro .corposobre{
     color: black;
 }
 
@@ -198,8 +198,21 @@ header {
     background-color: black;
 }
 
-.sobreus.escuro .titulosobre {
+.sobreus.escuro .titulosobre,
+.sobreus.escuro .corposobre {
     color: white;
+}
+
+.botao {
+    display: inline-block;
+    background-color: #828756;
+    color: white;
+    font-size: 12px;
+    font-weight: 600;
+    text-decoration: none;
+    padding: 10px 30px;
+    margin-top: 30px;
+    border-radius: 20px;
 }
 
 
@@ -213,5 +226,54 @@ header {
 
 /* css para área especifica */
 
+.textodentro {
+    display: flex;
+}
 
+.textoesquerda {
+    flex: 1;
+}
+
+.textoesquerda p {
+    font-size: 14px;
+    line-height: 25px;
+}
+
+.textodireita {
+    width: 520px;
+    text-align: center;
+}
+
+.textodireita img {
+    width: 480px;
+    box-shadow: 0px 5px 10px #333;
+}
+
+.servicoscorpo {
+    display: flex;
+}
+
+.servicoitem {
+    flex: 1;
+    text-align: center;
+    border-right: 1px solid #333;
+    padding: 15px;
+}
+
+.servicoitem:first-child {
+    border-left: 1px solid #333;
+}
+
+.servicoitem h4 {
+    margin-top: 20px;
+    text-transform: uppercase;
+    font-size: 18px;
+
+}
+
+.servicoitem p {
+    margin-top: 10px;
+    font-size: 13px;
+    color: #999;
+}
 
