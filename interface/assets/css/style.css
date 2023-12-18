@@ -277,3 +277,94 @@ header {
     color: #999;
 }
 
+
+.projetosfeitos {
+display: flex;
+flex-direction: column;
+align-items: center;
+
+}
+
+
+.projetosfiltros {
+    border: 1px solid #ccc;
+    background-color: #eee;
+    border-radius: 30px;
+    display: inline-block;
+    padding: 0px 20px;
+    
+
+}
+
+.projetosfiltros ul,
+.projetosfiltros li {
+    list-style: none;
+}
+
+.projetosfiltros li {
+    display: inline-block;
+    padding: 10px;
+    text-transform: uppercase;
+    font-size: 13px;
+    border-left: 1px solid #ccc;
+    color: #555;
+    border-bottom: 3px solid #eee;
+
+}
+
+.projetosfiltros li:hover,
+.projetosfiltros li.ativo {
+    border-bottom: 3px solid #828756;
+}
+
+.projetosfiltros li:first-child {
+    border-left: 0;
+}
+
+.projetofotos {
+    width: 100vw;
+    max-width: 1140px;
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.projetofotinha {
+    width: 280px;
+}
+
+.fotoarea {
+    margin: 10px;
+    width: 260px;
+    height: 160px;
+
+}
+
+.fotoarea img {
+    width: inherit;
+    height: inherit;
+}
+
+.fotoarea1 {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: inherit;
+    height: inherit;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    flex-direction: column;
+}
+
+.fotoarea1 h5 {
+    font-size: 18px ;
+    font-weight: 600;
+}
+
+.fotoarea:hover .fotoarea1 {
+    display: flex;
+
+}
+
