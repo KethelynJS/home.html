@@ -368,3 +368,166 @@ align-items: center;
 
 }
 
+
+.team {
+    background-image: url('../images/bg.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 0;
+}
+
+.timecor {
+    background-color: rgba(0,0,0,0.8);
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.servicostime {
+    overflow: hidden;
+    max-width: 880px;
+    margin: auto;
+}
+
+.servicostime .deslizar1 {
+    width: 1000vw;
+    height: 100%;
+    
+}
+
+.servicostime .deslizar {
+    width: 280px;
+    height: 100%;
+    display: inline-block;
+    background-color: white;
+    margin-right: 20px;
+    min-height: 300px;
+}
+
+.servicostime .deslizararea {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    align-items: center;
+    color: black;
+    justify-content: center;
+    padding: 25px;
+}
+
+.imagemtime {
+    width: 150px;
+    height: auto;
+}
+
+.nometime {
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 17px;
+    margin-top: 30px
+}
+
+.roletime {
+    font-size: 14px;
+    color: #999;
+    margin: 5px;
+}
+
+.socialtime {
+    display: flex;
+    margin-top: 20px;
+}
+
+.socialtime a {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 25px;
+    height: 25px;
+    background-color: #ccc;
+    border-radius: 13px;
+    margin-right: 5px;
+    
+}
+
+.socialtime a:hover {
+    background-color: #828756;
+}
+
+.avaliadorfeitos .deslizararea {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    align-items: center;
+    color: black;
+    justify-content: center;
+    padding: 25px;
+}
+
+.imagemavaliador {
+    width: 100px;
+    height: auto;
+    
+}
+.nomeavaliador {
+    font-weight: 600;
+    font-size: 17px;
+    margin-top: 30px
+    
+}
+.roleavaliador {
+    font-size: 14px;
+    color: #999;
+    margin: 5px;
+}
+
+.avaliadoricone {
+    margin: 10px;
+}
+
+.avaliadorfeitos .pointers {
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.avaliadorfeitos .pointer {
+    width: 15px;
+    height: 15px;
+    border: 2px solid #828756;
+    border-radius: 8px;
+    margin-left: 5px;
+    margin-right: 5px;
+    cursor: pointer;
+
+}
+
+.avaliadorfeitos .pointer.ativoo {
+    background-color: #828756;
+}
+
+
+.sobreus .cinza {
+    background-color: #ccc;
+}
+
+.logoparceiros {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.logopimg {
+    display: inline-block;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+    margin-right: 20px;
+}
+
+
+
+
+
